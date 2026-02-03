@@ -1,5 +1,5 @@
 {
-  "name": "node-web-server",
+  "name": "web-server",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
@@ -22,5 +22,17 @@
     "eslint": "^9.39.2",
     "globals": "^17.0.0",
     "prettier": "^3.8.1"
-  }
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mime-types": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosmorF/nodeProyectoServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JosmorF/nodeProyectoServer/issues"
+  },
+  "homepage": "https://github.com/JosmorF/nodeProyectoServer#readme"
 }
